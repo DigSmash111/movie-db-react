@@ -12,7 +12,7 @@ const App = () => {
 		selected: {}
 	});
 
-	const apiurl = 'http://www.omdbapi.com/?apikey=65ff28fa';
+	const apiurl = 'https://www.omdbapi.com/?apikey=65ff28fa';
 
 	const handleInput = e => {
 		let s = e.target.value;
